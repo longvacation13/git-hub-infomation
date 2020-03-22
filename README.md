@@ -11,3 +11,29 @@
 
 
 
+-----------------------------------------------------------------------------------------------
+
+# 신규 프로젝트 repository 등록 방법 
+
+1. 해당 폴더 가서 [ git bash ] 
+
+2. github 사이트에서 create repository 
+
+3. bash 콘솔창에서  "git init "
+
+4. git config 설정 
+> git config --global user.email "superukie@naver.com" 
+> git config --global user.name "superukie" 
+
+5. remote branch 연결 
+git remote add origin https://github.com/superukie/[repository주소] 
+
+6. git add 
+> 작업된 소스코드 add 
+> git add * 
+
+7. commit 
+git commit "커밋메시지" 
+
+8. git push -u origin master 
+> origin master push  
